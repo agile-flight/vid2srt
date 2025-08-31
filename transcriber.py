@@ -2,13 +2,14 @@ import os
 from faster_whisper import WhisperModel
 import utils, config
 
+# Speech recognition and transcription module
+
 def transcribe_chunks(chunks, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
     key = config.load_key()
     if key:
         print("Using OpenAI Whisper API (not implemented stub here)")
-        # TODO: implement OpenAI API transcription if key provided
     else:
         print("Using local faster-whisper")
         model = WhisperModel("small", device="auto", compute_type="int8_float16")
