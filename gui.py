@@ -4,6 +4,8 @@ import splitter, transcriber, config
 import threading
 import os
 
+# Graphical user interface for vid2srt application
+
 def launch():
     root = tk.Tk()
     root.title("Vid2SRT")
