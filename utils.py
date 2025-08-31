@@ -1,6 +1,8 @@
 import os
 import shutil
 
+# Utility functions for SRT generation and file management
+
 def write_srt(segments, srt_path):
     with open(srt_path, "w", encoding="utf-8") as f:
         for i, seg in enumerate(segments, 1):
