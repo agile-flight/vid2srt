@@ -1,0 +1,7 @@
+faster-whisper>=0.9.0
+
+# System dependencies (install separately):
+# - ffmpeg: Required for video processing
+#   macOS: brew install ffmpeg
+#   Ubuntu/Debian: sudo apt install ffmpeg
+#   Windows: Download from https://ffmpeg.org/download.html
