@@ -3,6 +3,8 @@ import subprocess
 import tempfile
 import shutil
 
+# Video processing utilities for chunking large video files
+
 def check_ffmpeg():
     return shutil.which("ffmpeg") is not None
 
