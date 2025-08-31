@@ -1,6 +1,8 @@
 import argparse
 import gui, splitter, transcriber
 
+# Main entry point for the vid2srt application
+
 def main():
     parser = argparse.ArgumentParser(description="Vid2SRT: Video → Subtitles")
     parser.add_argument("--gui", action="store_true", help="Launch GUI mode")
