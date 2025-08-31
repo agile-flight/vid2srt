@@ -1,6 +1,8 @@
 import os
 import json
 
+# Configuration management for API keys and settings
+
 CONFIG_PATH = os.path.expanduser("~/.vid2srt_config.json")
 
 def save_key(key):
