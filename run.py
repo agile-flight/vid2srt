@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
 Simple launcher for vid2srt
+Provides an alternative entry point for the application
 """
 import sys
 import os
 
-# Add current directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-# Import and run the main function
 import argparse
 import gui, splitter, transcriber
 
