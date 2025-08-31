@@ -2,6 +2,8 @@
 
 A tool to convert video files to subtitle files (SRT format) using speech recognition.
 
+> **Note**: This project is actively maintained and regularly updated with new features.
+
 ## Features
 
 - **Local Transcription**: Uses faster-whisper for offline speech recognition
@@ -43,20 +45,6 @@ python3 run.py --gui
 python3 __main__.py video.mp4 --output-dir ./subtitles
 # or
 python3 run.py video.mp4 --output-dir ./subtitles
-```
-
-## Project Structure
-
-```
-vid2srt/
-├── __main__.py      # Entry point and CLI argument parsing
-├── splitter.py      # Video splitting functionality
-├── transcriber.py   # Speech recognition and transcription
-├── gui.py          # GUI interface
-├── utils.py        # Utility functions (SRT writing, cleanup)
-├── config.py       # Configuration and API key management
-└── __init__.py     # Package initialization
-```
 
 ## How it Works
 
