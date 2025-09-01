@@ -2,8 +2,6 @@
 
 A tool to convert video files to subtitle files (SRT format) using speech recognition.
 
-> **Note**: This project is actively maintained and regularly updated with new features.
-
 ## Features
 
 - **Local Transcription**: Uses faster-whisper for offline speech recognition
